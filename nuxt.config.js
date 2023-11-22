@@ -1,12 +1,12 @@
-import envConfig from './config/env.config.js'
+// import envConfig from './config/env.config.js'
 export default {
-  env:{
-	  NODE_ENV: envConfig[process.env.NODE_ENV].NODE_ENV,
-    VUE_REQUEST_TIMEOUT: envConfig.VUE_REQUEST_TIMEOUT,
-	  VUE_APP_BASE_API: envConfig[process.env.NODE_ENV].VUE_APP_BASE_API,
-    VUE_APP_BASE_API_SUFFIX: envConfig[process.env.NODE_ENV].VUE_APP_BASE_API_SUFFIX,
-    WEB_VIEW_URL: envConfig[process.env.NODE_ENV].WEB_VIEW_URL,
-  },
+  // env:{
+	 //  NODE_ENV: envConfig[process.env.NODE_ENV].NODE_ENV,
+  //   VUE_REQUEST_TIMEOUT: envConfig.VUE_REQUEST_TIMEOUT,
+	 //  VUE_APP_BASE_API: envConfig[process.env.NODE_ENV].VUE_APP_BASE_API,
+  //   VUE_APP_BASE_API_SUFFIX: envConfig[process.env.NODE_ENV].VUE_APP_BASE_API_SUFFIX,
+  //   WEB_VIEW_URL: envConfig[process.env.NODE_ENV].WEB_VIEW_URL,
+  // },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'nuxt2-demo',
